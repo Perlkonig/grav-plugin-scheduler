@@ -77,6 +77,8 @@ Here are a few sample codes:
 
 [A live demo is available on my website.](https://perlkonig.com/demos/scheduler)
 
+**NOTE:** This plugin uses regular expressions and is relatively fragile. The matching is case insensitive, but extraneous spaces at the beginning and end of tags will cause problems.
+
 ## Credits
 
 This plugin was developed as a proof of concept for [issue #1176](https://github.com/getgrav/grav/issues/1176).
